@@ -8,8 +8,8 @@ Prerequisites:
 
 1. You need to use
    [`remarkCollectImages`](https://github.com/withastro/astro/blob/659b2b034cb2f0c3dc72ed957d41a123cf0f43db/packages/markdown/remark/src/remark-collect-images.ts)
-   in your markdown parsing. This populates the set of image paths in the virtual
-   file data.
+   in your markdown parsing. This populates the set of image paths in the
+   virtual file data.
 
    For example:
 
