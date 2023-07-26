@@ -1,0 +1,35 @@
+{
+  "name": "rehype-astro-images",
+  "version": "0.0.1",
+  "description": "Rehype plugin to resolve relative images in Astro markdown files",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "repository": "https://github.com/birchill/rehype-astro-images",
+  "homepage": "https://github.com/birchill/rehype-astro-images#readme",
+  "bugs": {
+    "url": "https://github.com/birchill/rehype-astro-images/issues"
+  },
+  "author": "Brian Birtles",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "astro": "2.9.2",
+    "pinst": "^3.0.0",
+    "prettier": "^3.0.0",
+    "standard-version": "^9.5.0",
+    "typescript": "5.1.6"
+  },
+  "peerDependencies": {
+    "astro": "^2.9.2"
+  },
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pinst --disable && tsc",
+    "postpublish": "pinst --enable",
+    "release": "standard-version"
+  }
+}

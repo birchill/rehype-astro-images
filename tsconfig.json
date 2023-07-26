@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "exclude": ["node_modules", "index.d.ts"]
+}
