@@ -1,6 +1,6 @@
 {
   "name": "rehype-astro-images",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rehype plugin to resolve relative images in Astro markdown files",
   "repository": "https://github.com/birchill/rehype-astro-images",
   "homepage": "https://github.com/birchill/rehype-astro-images#readme",
