@@ -24,7 +24,7 @@ import { visit } from 'unist-util-visit';
 /**
  * @type {import('unified').Plugin<[Options], Root>}
  */
-export function rehypeAstroImages(options) {
+export default function rehypeAstroImages(options) {
   return async function (tree, file) {
     if (
       !file.path ||
